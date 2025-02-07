@@ -650,7 +650,7 @@ Send Enquiry
 
 
 
-
+<!-- 
 
 <div class="col-lg-4 col-md-6">
 
@@ -795,7 +795,7 @@ Send Enquiry
 </div>
 
 </div>
-
+ -->
 
 
 
@@ -981,7 +981,7 @@ Send Enquiry
         </div>
     </div>
     <div class="text-center mt-5">
-        <a href="https://www.youtube.com/@thewoodsinterior9922" class="btn btn-primary  call">View More</a>
+        <a href="gallery.php" class="btn btn-primary  call">View More</a>
     </div>
 </div>
 
@@ -1189,7 +1189,7 @@ Send Enquiry
 
 <h4>Email:</h4>
 
-<p> <a href="mailto:rajpatel8726@gmail.com" class="phone2"> rajpatel8726@gmail.com </a></p>
+<p> <a href="mailto:rajpatel8726@gmail.com" class="phone2"> thewoodsinterior@gmail.com </a></p>
 
 </div>
 

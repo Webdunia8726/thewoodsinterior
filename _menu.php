@@ -26,8 +26,23 @@
                     <a class="nav-link" href="about.php">About Us</a>
                 </li>
                
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.php">Gallery</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                        Gallery
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Bed</a></li>
+                        <li><a class="dropdown-item" href="#">Bedroom</a></li>
+                        <li><a class="dropdown-item" href="#">False Ceiling</a></li>
+                        <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                        <li><a class="dropdown-item" href="#">LCD</a></li>
+                        <li><a class="dropdown-item" href="#">Pooja Unit</a></li>
+                        <li><a class="dropdown-item" href="#">Wardrobes</a></li>
+
+
+
+
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">

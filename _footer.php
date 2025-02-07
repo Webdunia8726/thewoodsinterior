@@ -2,7 +2,44 @@
 
 <footer id="footer">
 
+<footer class="bg-dark text-white pt-4">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <h5 class="fw-bold">About Us</h5>
+                <p>We provide top-notch Carpenter & Electrical services for homes and businesses. Your satisfaction is our priority!</p>
+            </div>
 
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5 class="fw-bold">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Gallery</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-4">
+                <h5 class="fw-bold">Follow Us</h5>
+                <div>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="text-center mt-4 pb-3">
+            <p class="mb-0">&copy; 2024 All Rights Reserved | Your Company Name</p>
+        </div>
+    </div>
+</footer>
 
     <div class="container py-2 text-center">
 
@@ -175,6 +212,11 @@
 
 </div>
 
+
+<!-- FontAwesome Icons -->
+<script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+
+
 <script src="assets/js/backtotop.min.js"></script>
 
 <script type="text/javascript">
@@ -306,6 +348,8 @@ moreAni: "fast",
 lessAni: 1000
 
 });
+
+
 
 </script>
 
