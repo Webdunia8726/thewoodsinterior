@@ -31,9 +31,9 @@
                         Gallery
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Bed</a></li>
-                        <li><a class="dropdown-item" href="#">Bedroom</a></li>
-                        <li><a class="dropdown-item" href="#">False Ceiling</a></li>
+                        <li><a class="dropdown-item" href="bed.php">Bed</a></li>
+                        <li><a class="dropdown-item" href="bedroom.php">Bedroom</a></li>
+                        <li><a class="dropdown-item" href="falsecelling.php">False Ceiling</a></li>
                         <li><a class="dropdown-item" href="#">Kitchen</a></li>
                         <li><a class="dropdown-item" href="#">LCD</a></li>
                         <li><a class="dropdown-item" href="#">Pooja Unit</a></li>

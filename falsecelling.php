@@ -61,25 +61,40 @@
 
         <div class="row">
             <div class="col-md-4 col-sm-6">
-                <img src="assets/img/gallery/bed/1.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery1.jpg">
+                <img src="assets/img/gallery/falsecelling/1.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery1.jpg">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="assets/img/gallery/bed/2.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery2.jpg">
+                <img src="assets/img/gallery/falsecelling/2.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery2.jpg">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="assets/img/gallery/bed/3.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery3.jpg">
+                <img src="assets/img/gallery/falsecelling/3.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery3.jpg">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="assets/img/gallery/bed/4.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery4.jpg">
+                <img src="assets/img/gallery/falsecelling/4.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery4.jpg">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="assets/img/gallery/bed/5.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery5.jpg">
+                <img src="assets/img/gallery/falsecelling/5.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery5.jpg">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="assets/img/gallery/bed/6.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
+                <img src="assets/img/gallery/falsecelling/6.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
             </div>
             <div class="col-md-4 col-sm-6">
-                <img src="assets/img/gallery/bed/7.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
+                <img src="assets/img/gallery/falsecelling/7.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <img src="assets/img/gallery/falsecelling/8.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <img src="assets/img/gallery/falsecelling/9.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <img src="assets/img/gallery/falsecelling/10.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <img src="assets/img/gallery/falsecelling/11.webp" class="gallery-img" data-toggle="modal" data-target="#imageModal" data-src="assets/img/gallery/gallery6.jpg">
             </div>
         </div>
     </div>
