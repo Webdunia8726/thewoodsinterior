@@ -68,8 +68,7 @@
 <div style="font-size: 24px; font-weight: bold; padding: 10px; background: linear-gradient(90deg, rgb(11, 54, 196), #2ec650); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: center;">
 Call Or Whatsapp Us For Free Home Demo
 </div>
-
-<form method="POST" name="indexform" class="contact-form" onsubmit="sendToWhatsApp(event)">
+<form method="POST" name="indexform" class="contact-form p-3" onsubmit="sendToWhatsApp(event)" >
 
   <div class="input-field">
     <div class="inputs">
@@ -106,6 +105,8 @@ Call Or Whatsapp Us For Free Home Demo
   </p>
 
 </form>
+
+
 
 
 </div>
@@ -1165,95 +1166,48 @@ Send Enquiry
 </div>
 
 
-
 <div class="col-lg-4 mt-5 mt-lg-0 footer_form">
+  <div class="formmodal footer-contact-form">
+    <h5 class="text-center">Call Us For Free Home Demo</h5>
 
-<div class="formmodal footer-contact-form">
-<h5 class="text-center">Call Us For Free Home Demo</h5>
+    <form method="POST" name="indexform" class="contact-form p-3" onsubmit="sendToWhatsApp(event)">
+      <div class="input-field">
+        <div class="inputs">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          <input type="text" class="form-control" id="name" name="name" required placeholder="Name">
+        </div>
+      </div>
 
-<form method="POST" name="indexform" action="enquiry.php" class="contact-from">
+      <div class="input-field">
+        <div class="inputs">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <input type="text" class="form-control" id="telphone" name="telphone" required placeholder="Mobile" 
+            oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0,10);" 
+            maxlength="10" pattern="[1-9]{1}[0-9]{9}">
+        </div>
+      </div>
 
+      <div class="input-field">
+        <div class="inputs">
+          <i class="fa fa-users" aria-hidden="true"></i>
+          <select name="people" id="people" required class="form-control">
+            <option value="0">Services</option>
+            <option value="1">Residential Interior</option>
+            <option value="2">Commercial Interior</option>
+            <option value="3">Custom Furniture & Decor</option>
+            <option value="4">Turnkey Interior</option>
+            <option value="5">3D Interior Designing & Consultation</option>
+          </select>
+        </div>
+      </div>
 
-
-<div class="input-field">
-
-<div class="inputs"><i class="fa fa-user" aria-hidden="true"></i><input type="text" class="form-control" name="name" required="" placeholder="Name" tabindex="0"> </div>
-
-
-
-</div>
-
-
-
-<div class="input-field">
-
-
-
-<div class="inputs"><i class="fa fa-phone" aria-hidden="true"></i><input type="text" class="form-control" name="telphone" required="" placeholder="Mobile" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10" pattern="[1-9]{1}[0-9]{9}" required tabindex="0"></div> 
-
-
-
-</div>
-
-
-
-<div class="input-field">
-
-<div class="inputs">
-
-<i class="fa fa-users" aria-hidden="true"></i>
-
-<select name="people" required="" class="form-control" tabindex="0">
-
-<option value="0">Services</option>
-
-<option value="1">Residential Interior</option>
-
-<option value="2">Commercial Interior</option>
-
-<option value="3">Custom Furniture & Decor</option>
-
-<option value="4">Turnkey Interior</option>
-
-<option value="5">3D Interior Designing & Consultation</option>
-
-
-
-</select>
-
-</div>
-
-</div>
-
-
-
-<div class="input-field">
-
-  <div class="inputs">
-
-  <i class="fa fa-calendar" aria-hidden="true"></i><input class="form-control" placeholder="Booking Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.value == '' ? this.type='text' : this.type='date')" autocomplete="off" name="arrdate" required/>
-
+      <p class="text-center">
+        <button type="submit" class="btn btn-primary twoToneButton">Send Enquiry</button>
+      </p>
+    </form>
   </div>
-
-  
-
 </div>
 
-
-
-<p class="text-center">
-
-
-
-<button type="submit" name="send_message_btn" class="btn btn-primary twoToneButton" value="ENQUIRY NOW" tabindex="0">Send Enquiry</button>
-
-
-
-</p>
-
-
-
-</form>
 
 
 </div>
@@ -1312,7 +1266,39 @@ function sendToWhatsApp(event) {
     window.open(whatsappURL, "_blank");
 }
 </script>
+<script>
+function sendToWhatsApp(event) {
+    event.preventDefault(); // Form ko submit hone se roko
 
+    let form = event.target; // Jis form se event aaya usko fetch karo
+    let name = form.querySelector("#name").value.trim();
+    let mobile = form.querySelector("#telphone").value.trim();
+    let service = form.querySelector("#people").value;
+
+    let services = {
+        "0": "Not Selected",
+        "1": "Residential Interior",
+        "2": "Commercial Interior",
+        "3": "Custom Furniture & Decor",
+        "4": "Turnkey Interior",
+        "5": "3D Interior Designing & Consultation"
+    };
+
+    let serviceName = services[service] || "Unknown Service";
+
+    if (name === "" || mobile === "" || service === "0") {
+        alert("Please fill all fields before submitting.");
+        return;
+    }
+
+    let whatsappNumber = "919140012929"; // Apna WhatsApp Number yahan daalein
+    let message = `*New Interior Enquiry*\n\n👤 *Name:* ${name}\n📞 *Mobile:* ${mobile}\n🛠️ *Service:* ${serviceName}`;
+
+    let whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+    
+    window.open(whatsappURL, "_blank");
+}
+</script>
 </body>
 
 
