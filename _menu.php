@@ -13,7 +13,7 @@
  <!-- Navbar Start -->
 <nav class="navbar navbar-expand-lg p-0 fixed-top bg-white">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/interior/mainlogo.png" alt="" class="logo"></a>
+        <a class="navbar-brand" href="index.php"><img src="assets/img/interior/mainlogo.png" alt="" class="logo"></a>
         <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
