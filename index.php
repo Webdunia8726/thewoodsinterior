@@ -420,11 +420,11 @@ Call Or Whatsapp Us For Free Home Demo
 
 <div class="two_buttons">
 
-<button type="button" class="btn btn-primary snd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top: 10px;">
-
-Send Enquiry
-
+<!-- Call Now Button -->
+<button type="button" class="btn btn-primary snd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="window.location.href='tel:+919140012929'" style="margin-top: 10px;">
+    Call Now
 </button>
+
 
 
 
@@ -498,11 +498,11 @@ Send Enquiry
 
 <div class="two_buttons">
 
-<button type="button" class="btn btn-primary snd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top: 10px;">
-
-Send Enquiry
-
+<!-- Call Now Button -->
+<button type="button" class="btn btn-primary snd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="window.location.href='tel:+919140012929'" style="margin-top: 10px;">
+    Call Now
 </button>
+
 
 
 
@@ -576,11 +576,11 @@ Send Enquiry
 
 <div class="two_buttons">
 
-<button type="button" class="btn btn-primary snd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-top: 10px;">
-
-Send Enquiry
-
+<!-- Call Now Button -->
+<button type="button" class="btn btn-primary snd-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="window.location.href='tel:+919140012929'" style="margin-top: 10px;">
+    Call Now
 </button>
+
 
 
 

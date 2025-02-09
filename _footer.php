@@ -90,12 +90,10 @@
 
 
             <div class="two_buttons_footer">
+            <button type="button" class="btn btn-primary footer_button1" onclick="window.location.href='tel:+919140012929'">
+    Call Now
+</button>
 
-              <button type="button" class="btn btn-primary footer_button1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-
-              Enquiry Now
-
-            </button>
 
 
 
