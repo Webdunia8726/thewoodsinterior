@@ -8,7 +8,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST['name'];
     $mobile = $_POST['telphone'];
     $service = $_POST['people'];
-    $booking_date = $_POST['arrdate'];
 
     // Service ko readable text banane ke liye
     $services = [
@@ -29,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'smtp.gmail.com'; // Gmail SMTP Server
         $mail->SMTPAuth = true;
         $mail->Username = 'rajpatel8726@gmail.com'; // Aapka Gmail
-        $mail->Password = 'vgvj uznh pixl sdcz'; // Gmail App Password
+        $mail->Password = 'rlvn dzuy qfqt ufeg'; // Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
@@ -45,7 +44,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <p><strong>Name:</strong> $name</p>
             <p><strong>Mobile:</strong> $mobile</p>
             <p><strong>Service:</strong> $service_name</p>
-            <p><strong>Booking Date:</strong> $booking_date</p>
         ";
 
         $mail->send();

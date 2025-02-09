@@ -70,90 +70,45 @@ Call Or Whatsapp Us For Free Home Demo
 </div>
 
 
-
 <form method="POST" name="indexform" action="enquiry.php" class="contact-from">
 
-
-
-<div class="input-field">
-
-<div class="inputs"><i class="fa fa-user" aria-hidden="true"></i><input type="text" class="form-control" name="name" required="" placeholder="Name" tabindex="0"> </div>
-
-
-
-</div>
-
-
-
-<div class="input-field">
-
-
-
-<div class="inputs"><i class="fa fa-phone" aria-hidden="true"></i><input type="text" class="form-control" name="telphone" required="" placeholder="Mobile" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" maxlength="10" pattern="[1-9]{1}[0-9]{9}" required tabindex="0"></div> 
-
-
-
-</div>
-
-
-
-<div class="input-field">
-
-<div class="inputs">
-
-<i class="fa fa-users" aria-hidden="true"></i>
-
-<select name="people" required="" class="form-control" tabindex="0">
-
-<option value="0">Services</option>
-
-<option value="1">Residential Interior</option>
-
-<option value="2">Commercial Interior</option>
-
-<option value="3">Custom Furniture & Decor</option>
-
-<option value="4">Turnkey Interior</option>
-
-<option value="5">3D Interior Designing & Consultation</option>
-
-
-
-</select>
-
-</div>
-
-</div>
-
-
-
-<div class="input-field">
-
-  <div class="inputs">
-
-  <i class="fa fa-calendar" aria-hidden="true"></i><input class="form-control" placeholder="Booking Date" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.value == '' ? this.type='text' : this.type='date')" autocomplete="off" name="arrdate" required/>
-
+  <div class="input-field">
+    <div class="inputs">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <input type="text" class="form-control" name="name" required placeholder="Name" tabindex="0">
+    </div>
   </div>
 
-  
+  <div class="input-field">
+    <div class="inputs">
+      <i class="fa fa-phone" aria-hidden="true"></i>
+      <input type="text" class="form-control" name="telphone" required placeholder="Mobile" 
+        oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" 
+        maxlength="10" pattern="[1-9]{1}[0-9]{9}" tabindex="0">
+    </div>
+  </div>
 
-</div>
+  <div class="input-field">
+    <div class="inputs">
+      <i class="fa fa-users" aria-hidden="true"></i>
+      <select name="people" required class="form-control" tabindex="0">
+        <option value="0">Services</option>
+        <option value="1">Residential Interior</option>
+        <option value="2">Commercial Interior</option>
+        <option value="3">Custom Furniture & Decor</option>
+        <option value="4">Turnkey Interior</option>
+        <option value="5">3D Interior Designing & Consultation</option>
+      </select>
+    </div>
+  </div>
 
-
-
-<p class="text-center">
-
-
-
-<button type="submit" name="send_message_btn" class="btn btn-primary twoToneButton" value="ENQUIRY NOW" tabindex="0">Send Enquiry</button>
-
-
-
-</p>
-
-
+  <p class="text-center">
+    <button type="submit" name="send_message_btn" class="btn btn-primary twoToneButton" 
+      value="ENQUIRY NOW" tabindex="0">Send Enquiry</button>
+  </p>
 
 </form>
+
 
 
 
