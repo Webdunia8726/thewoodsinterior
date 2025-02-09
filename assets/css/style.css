@@ -2718,14 +2718,14 @@ a.truncate_more_link{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
   border-radius: 10px;
-  z-index: 1;
+  z-index: 0; /* Reduced index */
 }
 
 /* Content Styling */
 .cta-content {
   position: relative;
   padding: 30px;
-  z-index: 2; /* Make sure content appears above the overlay */
+  z-index: 1; /* Lowered to avoid overlapping */
 }
 
 /* Heading Styling */
