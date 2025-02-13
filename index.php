@@ -58,7 +58,7 @@
 
 <div class="form_header text-center">
 
-<img src="assets/img/interior/goverment-proof.png" alt="" class="img-fluid logogold">
+<img src="assets/img/interior/goverment-proof.png" alt="" class="img-fluid logogold" alt="Luxury Home Interior Design in Lucknow">
 <div class="text-center">
 <img src="assets/img/interior/mainlogo.png" alt="Logo">
 
@@ -1300,6 +1300,56 @@ function sendToWhatsApp(event) {
 </script>
 
 <!-- JavaScript Code for WhatsApp Integration -->
+
+
+<script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "XYZ Interior Designers",
+  "image": "https://thewoodsinterior.com/images/interior-design.jpg",
+  "@id": "https://thewoodsinterior.com/",
+  "url": "https://thewoodsinterior.com/",
+  "telephone": "+91-9140012929",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123, MG Road, Gomti Nagar",
+    "addressLocality": "Lucknow",
+    "addressRegion": "UP",
+    "postalCode": "226010",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "26.8467",
+    "longitude": "80.9462"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "10:00",
+      "closes": "17:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/xyzinteriors",
+    "https://www.instagram.com/xyzinteriors",
+    "https://www.linkedin.com/company/xyzinteriors"
+  ],
+  "serviceType": ["Home Interior Design", "Office Interior Design", "Modular Kitchen", "Commercial Interiors"],
+  "priceRange": "₹₹₹"
+}
+</script>
+
+</script>
 
 </body>
 
