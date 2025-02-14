@@ -2,9 +2,9 @@
 
 <div class="icon-bar">
 
-<a href="https://wa.me/919140012929/?text=Hello! I'm contacting you regarding your Interior Design services." class="facebook" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+<a href="https://wa.me/919140012929/?text=Hello! I'm contacting you regarding your Interior Design services." class="facebook" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #ebeff4;"></i></a> 
 
-<a href="tel:+919140012929" class="twitter"><i class="bi bi-telephone"></i></a> 
+<a href="tel:+919140012929" class="twitter"><i class="fa-solid fa-phone" style="color: #ebecf0;"></i></a> 
 
 
 

@@ -450,7 +450,7 @@ Call Or Whatsapp Us For Free Home Demo
 
 <div class="card pkgs">
 
-<img class="card-img-top" src="assets/img/interior/commercial.webp" alt="Card image cap">
+<img class="card-img-top" src="assets/img/interior/commercial.webp" alt="">
 
 <div class="tag">Price On Request </div>
 
