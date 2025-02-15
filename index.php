@@ -25,7 +25,7 @@
 
 <?php include '_menu.php'; ?>
 
-<section id="hero" class="d-flex align-items-center" style="background-image: url(assets/img/interior/hero-interior.webp); background-size: cover; background-position: center; background-attachment: fixed;">
+<section id="hero" class="d-flex align-items-center" style="background-image: url(assets/img/interior/hero.webp); background-size: cover; background-position: center; background-attachment: fixed;">
 
 <div class="container">
 
@@ -367,7 +367,11 @@ Call Or Whatsapp Us For Free Home Demo
 
 <div class="card pkgs">
 
-<img class="card-img-top" src="assets/img/interior/residential.webp" alt="Card image cap">
+<img class="card-img-top" src="assets/img/interior/luxury-residential-interior-design-lucknow.webp" 
+alt="Luxury Residential Interior Design in Lucknow - Modern & Elegant Homes" 
+title="Explore Luxury Residential Interior Design Trends in Lucknow for Modern Homes" 
+loading="lazy">
+
 
 <div class="tag">Price On Request</div>
 
@@ -450,7 +454,11 @@ Call Or Whatsapp Us For Free Home Demo
 
 <div class="card pkgs">
 
-<img class="card-img-top" src="assets/img/interior/commercial.webp" alt="">
+<img class="card-img-top" src="assets/img/interior/modern-commercial-interior-design-lucknow.webp" 
+alt="Modern Commercial Interior Design in Lucknow for Offices & Retail Spaces" 
+title="Explore Modern Commercial Interior Design Trends in Lucknow for Offices & Shops" 
+loading="lazy">
+
 
 <div class="tag">Price On Request </div>
 
@@ -528,7 +536,11 @@ Call Or Whatsapp Us For Free Home Demo
 
 <div class="card pkgs">
 
-<img class="card-img-top" src="assets/img/interior/furniture.webp" alt="Card image cap">
+<img class="card-img-top" src="assets/img/interior/luxury-furniture-design-lucknow.webp" 
+alt="Luxury Furniture Design in Lucknow | Custom Interiors & Home Decor" 
+title="Get Luxury Furniture Design Services in Lucknow for Elegant Interiors" 
+loading="lazy">
+
 
 <div class="tag">Price On Request </div>
 
@@ -755,7 +767,10 @@ Send Enquiry
 
 <div class="card pkgs">
 
-<img class="card-img-top" src="assets/img/interior/worker.webp" alt="Card image cap">
+<img class="card-img-top" src="assets/img/interior/skilled-construction-worker-lucknow.webp" 
+alt="Skilled Construction Worker in Lucknow | Expert Mason & Carpenter Services" 
+title="Hire Skilled Construction Workers in Lucknow for Quality Work" 
+loading="lazy">
 
 <div class="tag">Price On Request </div>
 
