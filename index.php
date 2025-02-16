@@ -138,6 +138,47 @@ Call Or Whatsapp Us For Free Home Demo
     </div>
 </div>
 
+<div class="container py-5">
+        <h1 class="section-title">Our Recent Works</h1>
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="assets/img/gallery/falsecelling/2.webp" alt="Living Room Interior">
+                <div class="carousel-caption">
+                    <!-- <h5>Luxury Living Room</h5> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/gallery/falsecelling/3.webp" alt="Modern Kitchen Design">
+                <div class="carousel-caption">
+                    <!-- <h5>Modern Kitchen Design</h5> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/gallery/falsecelling/4.webp" alt="Office Interior">
+                <div class="carousel-caption">
+                    <!-- <h5>Office Interior</h5> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/gallery/falsecelling/5.webp" alt="Bedroom Interior">
+                <div class="carousel-caption">
+                    <!-- <h5>Cozy Bedroom Design</h5> -->
+                </div>
+            </div>
+
+
+            <div class="item">
+                <img src="assets/img/gallery/falsecelling/6.webp" alt="Office Interior">
+                <div class="carousel-caption">
+                    <!-- <h5>Office Interior</h5> -->
+                </div>
+            </div>
+            <!-- above add another -->
+        </div>
+    </div>
+
+
 
 <div class="container">
         <div class="video-container">
@@ -1377,6 +1418,30 @@ function sendToWhatsApp(event) {
 </script>
 
 </script>
+<script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+
 
 </body>
 
