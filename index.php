@@ -123,6 +123,8 @@ Call Or Whatsapp Us For Free Home Demo
 
 </section>
 
+
+
 <main id="main">
 
 <section>
@@ -137,6 +139,16 @@ Call Or Whatsapp Us For Free Home Demo
 </div>
 
 
+<div class="container">
+        <div class="video-container">
+            <div class="video-box">
+                <video controls>
+                    <source src="assets/video/interior-video.mp4" type="video/mp4">
+                    आपका ब्राउज़र वीडियो सपोर्ट नहीं करता।
+                </video>
+            </div>
+        </div>
+    </div>
 
 <!-- services -->
  

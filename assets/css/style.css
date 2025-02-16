@@ -2786,3 +2786,41 @@ a{
 .navbar{
   border-bottom: 1px solid rgb(218, 216, 213);
 }
+
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 20px 0;
+}
+.video-box {
+  width: 46%; /* मोबाइल के लिए 90% */
+  max-width: 720px; /* लैपटॉप/डेस्कटॉप के लिए 720px */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.video-heading {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* मोबाइल के लिए थोड़ा छोटा फॉन्ट */
+@media (max-width: 576px) {
+  .video-heading {
+      font-size: 1.5rem;
+  }
+  .video-box {
+      width: 95%;
+  }
+}
