@@ -138,6 +138,59 @@ Call Or Whatsapp Us For Free Home Demo
     </div>
 </div>
 
+
+
+<!-- Recent Work Section -->
+<div class="container py-5">
+    <h2 class="text-center mb-4">Our Recent Interior Design Work</h2>
+
+    <div class="row g-4">
+        <!-- Video 1 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/9t0gxq77y0I?si=6fAIxUPThhPD-sb8" allowfullscreen></iframe>
+            </div>
+            <h5 class="mt-3">Professional And Antique Interior Design Of 3bhk Flat</h5>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/8HYJ6S5BO10?si=RL-wSOkUUpyD0SCt" allowfullscreen></iframe>
+            </div>
+            <h5 class="mt-3">New Modular Wardrobe+ Bar Unit</h5>
+        </div>
+        
+        <!-- Video 3 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/OGJgo7_CoKQ?si=BoP4aAuYRTr9bE9u" allowfullscreen></iframe>
+            </div>
+            <h5 class="mt-3">Luxurious villa interior in Krishnagar</h5>
+        </div>
+
+        <!-- Video 4 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/P157APNwsvE?si=sIZBWnI-o8mp34du" allowfullscreen></iframe>
+            </div>
+            <h5 class="mt-3">3bhk full Interior, Vrindavan Yojna(Gold Star Home Apartment) 2022</h5>
+        </div>
+
+        <!-- Video 5 -->
+        <div class="col-lg-4 col-md-6 col-12 text-center">
+            <div class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/O9mkHo4W2Ic?si=HQ3YxbbIwPkRVB_T" allowfullscreen></iframe>
+            </div>
+            <h5 class="mt-3">Creative Interior Design of 3bhk Flat( Goel Height Appartment)</h5>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="https://www.youtube.com/@thewoodsinterior9922" class="btn btn-primary  call"> More Work Sample</a>
+    </div>
+</div>
+
 <div class="container py-5">
         <h1 class="section-title">Our Recent Works</h1>
 
