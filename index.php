@@ -58,7 +58,7 @@
 
 <div class="form_header text-center">
 
-<img src="assets/img/interior/goverment-proof.webp" alt="" class="img-fluid logogold" alt="Luxury Home Interior Design in Lucknow">
+<!-- <img src="assets/img/interior/goverment-proof.webp" alt="" class="img-fluid logogold" alt="Luxury Home Interior Design in Lucknow"> -->
 <div class="text-center">
 <img src="assets/img/interior/mainlogo.png" alt="Logo">
 
