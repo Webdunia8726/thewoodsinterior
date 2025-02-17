@@ -452,7 +452,7 @@ Call Or Whatsapp Us For Free Home Demo
 
 <h2 style="font-family: Montserrat, sans-serif;">Our Interior Design Services</h2>
 
-<p>MOST POPULAR OUR SERVICES</p>
+<!-- <p>MOST POPULAR OUR SERVICES</p> -->
 
 </div>
 
